@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*estilo de portada*/
+#principal{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Cafe_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;   
+}
+#centro{
+    width:70%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 100px;
+}
+#centro p{
+    text-align: center;
+    font-size: 40px;
+}
+#iconos{
+    text-align: center;
+}
+i{
+    margin: 10px;
+    font-size: 30px;
+}
+.redes{
+    text-align: center;
+}
+/*estilo de blog*/
+#contenedor{
+    width: 75%;
+    margin: auto;
+    border: 1px solid rgb(219, 168, 26);
+}
+header{
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    height: 200px;
+    background-color: rgb(131, 92, 45);
+    z-index: 100;
+}
+header h1{
+    font-size: 60px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main{
+    padding-top: 250px;
+    text-align: justify;
+}
+main p{
+    margin: 10px;
+    color: rgb(121, 81, 52);
+    line-height: 1.7;
+}
+ul{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 27px;
+    transition: 0, 3s;
+    color: white;
+}
+li{
+    list-style-type: none;
+    padding: 0px;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+}
+#cuerpo{
+    margin: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#cuerpo h2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.yo img{
+    border-radius: 50%;
+    width: 80px;
+}
+.yo p{
+    text-align: center;
+    color: black;
+}
+.cuerpodos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cuerpodos img{
+    width: 300px;
+    margin: 25px;
+}
+footer{
+    text-align: center;
+    margin: 25px;
+    font-size: 30px;
+}
+footer a{
+    color: #222;
+}
+/*estilo galeria*/
+#imagenes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    gap: 20px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.imagen{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+.imagen img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 8px;
+    opacity: 0.8;
+}
+.imagen p{
+    text-align: center;
+    font-size: 25px;
+}
+/*estilo video*/
+#video{
+    text-align: center;
+}
+#video h2{
+    margin: 30px;
+}
+main iframe{
+    width: 65%;
+    max-width: 480px;
+    height: 270px;
+    margin: 3px;
+    box-shadow: 8px 8px 10px;
+}
+#video p{
+    width: 60%;
+    max-width: 500px;
+    margin: 5px auto 30px;
+    line-height: 1.3;
+    text-align: left;
+}
